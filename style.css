@@ -40,6 +40,7 @@ header {
   justify-content: space-between;
   align-items: center;
   font-family: "Roboto Condensed", sans-serif;
+  z-index: 2;
 }
 
 .nav-toggle {
@@ -78,10 +79,9 @@ header {
 /* End Active state for x */
 
 .dropdown {
-  /* display: none; */
+  z-index: -1;
   position: absolute;
-  top: 0;
-  height: 100%;
+  top: -110%;
   left: 0;
   width: 100%;
   background-color: #000000;
@@ -92,11 +92,19 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-size: 65px;
-  opacity: 0.91;
+  opacity: 0;
+  transition: top 1s ease-in-out, opacity 0.5s ease-in-out;
+  height: 100%;
 }
 
 .dropdown a {
   margin-bottom: 30px;
+}
+
+.dropdown.active {
+  visibility: visible;
+  top: 0;
+  opacity: 0.95;
 }
 
 main {
@@ -104,6 +112,7 @@ main {
   padding: 20px;
   background-color: #ecf0f1;
   position: relative;
+  z-index: 1;
 }
 
 footer {
