@@ -1,10 +1,11 @@
 # This is a simple portfolio project
 
 ## Next Goal
+- [ ] Create Home Page
+- [ ] Create About Page
 
-- [ ] Create Dropdown
-- [ ] Create animation for Dropdown
-
+- [x] Create Dropdown
+- [x] Create animation for Dropdown
 - [x] Create the animation for our toggle
 - [x] Create our Nav Toggle Button (superficial)
 - [x] Mobile skeleton
