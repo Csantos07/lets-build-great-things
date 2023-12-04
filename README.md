@@ -13,6 +13,11 @@
 
 ## Checking In
 
+Working version of the front page.
+
+Added background image and filled out the headings and button for the `main` section
+---
+
 Finished animation for dropdown
 
 Added dropdown Id to target the dropdown with JS. On button click dropdown also gets class active.
@@ -38,8 +43,9 @@ Home Page
 
 Get background image
 
-- ***
-  I just finished up the Dropdown.
+---
+
+I just finished up the Dropdown.
 
 Imported Google Fonts.
 Naturalized the anchor tags.
