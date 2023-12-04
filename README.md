@@ -1,9 +1,9 @@
 # This is a simple portfolio project
 
 ## Next Goal
+
 - [ ] Create Home Page
 - [ ] Create About Page
-
 
 - [x] Create Dropdown
 - [x] Create animation for Dropdown
