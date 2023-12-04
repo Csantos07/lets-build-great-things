@@ -2,8 +2,8 @@
 
 ## Next Goal
 
-- [] Create Dropdown
-- [] Create animation for Dropdown
+- [ ] Create Dropdown
+- [ ] Create animation for Dropdown
 
 - [x] Create the animation for our toggle
 - [x] Create our Nav Toggle Button (superficial)
