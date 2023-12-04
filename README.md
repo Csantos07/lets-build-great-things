@@ -7,6 +7,7 @@
 
 - [x] Create the animation for our toggle
 - [x] Create our Nav Toggle Button (superficial)
+- [x] Mobile skeleton
 
 ## Currently
 
