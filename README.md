@@ -2,9 +2,10 @@
 
 ## Next Goal
 
-- [ ] Create Home Page
+- [x] Fix Dropdown Main Visual Effect Issue
 - [ ] Create About Page
 
+- [x] Create Home Page
 - [x] Create Dropdown
 - [x] Create animation for Dropdown
 - [x] Create the animation for our toggle
@@ -13,9 +14,28 @@
 
 ## Checking In
 
+Implementation was pretty minimal.
+Just changed the z-index of the 2 headings
+Branch -
+`git checkout -b fix-dropdown-main-issue`
+`git checkout -b fix-dropdown-main-issue_z-index-strategy`
+
+## What I want to do now
+
+From the previous branch I just merged where I made the landing page.
+Some things are not looking quite right when we use the dropdown.
+The letters from the landing page are going over dropdown…
+
+What I’m thinking is creating an active/inactive state for the main section where it affects the z-index of main.
+
+So I would create an inactive class that i will put on the main items? Then when it is inactive it should be set behind the dropdowns z-index
+
+---
+
 Working version of the front page.
 
 Added background image and filled out the headings and button for the `main` section
+
 ---
 
 Finished animation for dropdown
