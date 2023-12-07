@@ -14,13 +14,14 @@
 
 ## Checking In
 
-Implementation was pretty minimal.
-Just changed the z-index of the 2 headings
 Branch -
 `git checkout -b fix-dropdown-main-issue`
 `git checkout -b fix-dropdown-main-issue_z-index-strategy`
 
 ## What I want to do now
+
+Implementation was pretty minimal.
+Just changed the z-index of the 2 headings
 
 From the previous branch I just merged where I made the landing page.
 Some things are not looking quite right when we use the dropdown.
