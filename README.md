@@ -2,9 +2,11 @@
 
 ## Next Goal
 
-- [x] Fix Dropdown Main Visual Effect Issue
+- [ ] Adjustments to Home Page
+  - [ ] Try Hero Strategy to Contain the main
 - [ ] Create About Page
 
+- [x] Fix Dropdown Main Visual Effect Issue
 - [x] Create Home Page
 - [x] Create Dropdown
 - [x] Create animation for Dropdown
@@ -13,6 +15,18 @@
 - [x] Mobile skeleton
 
 ## Checking In
+
+Try Hero Strategy to Contain the main
+
+Branch -
+`git checkout -b "prep-for-hero-strategy"`
+
+The Purpose of this is to keep the content in the main under the dropdown
+as one component we can slide left or right.
+
+Definitely contemplating taking this to React level now.
+
+---
 
 Branch -
 `git checkout -b fix-dropdown-main-issue`
