@@ -2,10 +2,10 @@
 
 ## Next Goal
 
-- [ ] Adjustments to Home Page
-  - [ ] Try Hero Strategy to Contain the main
 - [ ] Create About Page
 
+- [x] Adjustments to Home Page
+  - [x] Try Hero Strategy to Contain the main
 - [x] Fix Dropdown Main Visual Effect Issue
 - [x] Create Home Page
 - [x] Create Dropdown
