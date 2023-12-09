@@ -16,19 +16,16 @@ a {
 
 a:visited {
   color: inherit;
-  /* Add any additional styles for visited links */
 }
 
 body {
-  margin: 0;
-  font-family: "Arial", sans-serif;
-
   background: url("lego-block-mobile.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100%;
+  min-height: 100vh;
+  max-width: 100vw;
   font-family: "Roboto", sans-serif;
 }
 
@@ -36,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-width: 100vw;
 }
 
 header {
@@ -126,6 +124,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  overflow-x: hidden; /* Fixes the background image changing sizes */
 }
 
 .hero {
@@ -136,6 +135,11 @@ main {
   position: relative;
   top: -50px;
   z-index: -2;
+}
+
+.hero.inactive {
+  opacity: 0;
+  visibility: hidden;
   display: none;
 }
 
@@ -144,7 +148,28 @@ main {
   position: relative;
   z-index: -2;
   padding-top: 50px;
-  /* display: none; */
+  top: -20px;
+  padding-bottom: 600px;
+  visibility: none; /* Hide initially */
+  opacity: 0;
+  display: none;
+}
+
+.about.active {
+  right: 0;
+  display: block;
+  animation: slideIn 1s ease-in-out forwards; /* Add this line */
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(30%);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .heading h2 {
@@ -187,11 +212,6 @@ main {
   border-radius: 3px;
 }
 
-.about {
-  position: relative;
-  padding-bottom: 600px;
-}
-
 .about .heading span {
   font-size: 34px;
   font-family: "Roboto", sans-serif;
@@ -203,12 +223,16 @@ main {
   width: 80vw;
   position: absolute;
   right: 0;
+  background-color: #e4e4e47d;
+  padding: 0px 20px 30px 20px;
+  margin-top: 30px;
+  border-radius: 3px;
 }
 .about p {
   font-size: 23px;
 }
 .about p:first-child {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .about p:nth-child(2) {
@@ -225,8 +249,9 @@ main {
   background-color: black;
   padding: 8px 20px;
   border-radius: 3px;
-  margin-top: 30px;
+  /* margin-top: 40px; */
   position: absolute;
+
   right: 20px;
 }
 
