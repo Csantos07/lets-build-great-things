@@ -20,6 +20,7 @@ a:visited {
 
 body {
   background: url("lego-block-mobile.png") no-repeat center center fixed;
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -65,7 +66,7 @@ header {
   background-color: #fff;
   height: 3px;
   width: 30px;
-  transition: transform 3s, opacity 1s;
+  transition: transform 2s, opacity 1s;
 }
 
 .bar:nth-child(2) {
@@ -128,19 +129,17 @@ main {
 }
 
 .hero {
+  opacity: 0;
+  visibility: none;
+  display: none;
+}
+
+.hero.active {
   flex: 1;
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
   position: relative;
   top: -50px;
   z-index: -2;
-}
-
-.hero.inactive {
-  opacity: 0;
-  visibility: hidden;
-  display: none;
 }
 
 .about {
@@ -149,17 +148,23 @@ main {
   z-index: -2;
   padding-top: 50px;
   top: -20px;
-  visibility: none; /* Hide initially */
   opacity: 0;
+  visibility: none; /* Hide initially */
   display: none;
 }
 
+.hero.active,
 .about.active {
-  right: 0;
   display: flex;
   flex-direction: column;
-  animation: slideIn 1s ease-in-out forwards; /* Add this line */
+  animation: slideIn 1s ease-in-out forwards;
 }
+
+/* .hero.active {
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 1s ease-in-out forwards;
+} */
 
 @keyframes slideIn {
   from {
