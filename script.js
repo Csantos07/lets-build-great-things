@@ -5,15 +5,9 @@ document.getElementById('navToggle').addEventListener('click', function () {
 });
 
 
-// document.getElementById("about-link").addEventListener('click', function () {
-//   document.getElementById('dropdown').classList.toggle('active');
-//   document.getElementById('about').classList.add('active');
-//   document.getElementById('hero').classList.add('inactive');
-//   document.getElementById('hero').classList.remove('active');
-// })
-
 
 const menuLinks = document.querySelectorAll(".menu-link");
+const connectBtns = document.querySelectorAll(".connect-btn");
 
 menuLinks.forEach((menuLink) => {
   menuLink.addEventListener('click', function () {
@@ -40,7 +34,19 @@ menuLinks.forEach((menuLink) => {
   });
 });
 
-// What i want to do is add an event listener
-// to each one of my links:
-//  [home-link, about-link, connect-link, other-works-link, code-link, fund-link]
 
+connectBtns.forEach((btn) => {
+  btn.addEventListener('click', function () {
+    console.log("Connect button clicked");
+    const targetSectionId = 'connect';
+    const mainSections = document.querySelectorAll('.main-content');
+
+    mainSections.forEach((section) => {
+      if (section.id === targetSectionId) {
+        section.classList.add('active');
+      } else {
+        section.classList.remove('active');
+      }
+    });
+  });
+});
