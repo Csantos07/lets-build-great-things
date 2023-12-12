@@ -1,9 +1,10 @@
 # This is a simple portfolio project
 
 ## Next Goal
+- [ ] Discovery for getting the form functional
 
-- [ ] Create About Page
-
+- [x] Create A Form Frontend
+- [x] Create About Page
 - [x] Adjustments to Home Page
   - [x] Try Hero Strategy to Contain the main
 - [x] Fix Dropdown Main Visual Effect Issue
@@ -15,6 +16,11 @@
 - [x] Mobile skeleton
 
 ## Checking In
+
+Create a form then figure out how to make it work
+
+
+---
 
 Try Hero Strategy to Contain the main
 
