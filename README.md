@@ -1,8 +1,10 @@
 # This is a simple portfolio project
 
 ## Next Goal
-- [ ] Discovery for getting the form functional
 
+- [x] Deployed with its own domain name on GH pages
+  - My domain is on google domains/ Google workspace?
+- [x] Discovery for getting the form functional
 - [x] Create A Form Frontend
 - [x] Create About Page
 - [x] Adjustments to Home Page
@@ -18,7 +20,6 @@
 ## Checking In
 
 Create a form then figure out how to make it work
-
 
 ---
 
