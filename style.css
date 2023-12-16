@@ -350,13 +350,34 @@ form button {
 }
 
 footer {
-  height: 2vh;
+  height: 5vh;
   background-color: #000000;
   color: #fff;
-  padding: 10px;
-  text-align: center;
+  /* padding: 10px; */
   margin-top: auto;
-  padding-bottom: 25px;
+  /* padding-bottom: 25px; */
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  flex-direction: row-reverse;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.socials a:first-child {
+  margin-right: 7px;
+}
+
+.socials a {
+  display: flex;
+}
+.socials a img {
+  width: 25px;
+  /* margin: 0 5px; */
 }
 
 @keyframes slideIn {
