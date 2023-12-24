@@ -340,6 +340,16 @@ form button {
   width: 100%;
 }
 
+.connect .heading-two {
+  color: rgb(0, 0, 0);
+}
+
+.connect .heading-two span,
+.connect .heading-two h3 {
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+}
+
 .connect .heading span {
   font-size: 28px;
   font-family: "Roboto", sans-serif;
@@ -353,9 +363,17 @@ form button {
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  color: rgb(204, 204, 204);
+  font-weight: 600;
+  /* color: rgb(204, 204, 204); */
   cursor: pointer;
   background-color: black;
+  background-color: hsla(
+    49,
+    100%,
+    50%,
+    0.907
+  ); /* Adjust the hover color as needed */
+
   padding: 8px 20px;
   border-radius: 3px;
   width: fit-content;
@@ -363,18 +381,24 @@ form button {
   margin-top: 10px; /* Adjust as needed */
   text-decoration: none;
   display: inline-block;
+  color: black;
 }
 
 .connect .form .heading-two {
   padding: 20px; /* Adjust the hover color as needed */
-  border: 1px solid black;
-  background-color: rgba(0, 0, 0, 0.76);
+  /* border: 1px solid black; */
+  background-color: hsla(
+    49,
+    100%,
+    50%,
+    0.531
+  ); /* Adjust the hover color as needed */
   border-radius: 10px;
   color: white;
 }
 
 .btn.calendly-btn:hover {
-  background-color: #333; /* Adjust the hover color as needed */
+  background-color: hsl(49, 100%, 62%); /* Adjust the hover color as needed */
 }
 
 .hero.active,
