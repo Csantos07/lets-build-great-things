@@ -275,12 +275,13 @@ main {
   flex-direction: row;
   align-items: flex-start;
 }
+
 .connect .checkbox-section:first-of-type {
   padding-top: 10px;
 }
 
 .connect label {
-  padding-left: 10px;
+  padding-left: 5px;
   font-size: 20px;
 }
 
