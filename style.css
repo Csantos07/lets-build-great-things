@@ -213,8 +213,9 @@ main {
   margin-top: 30px;
 }
 
-.about p:nth-child(2) {
-  margin-top: 50px;
+.about p:nth-child(2),
+.about p:nth-child(3) {
+  margin-top: 30px;
 }
 
 .about button {
@@ -241,6 +242,10 @@ main {
   opacity: 0;
   visibility: none;
   display: none;
+}
+
+.connect .calendly-mobile {
+  padding: 20px;
 }
 
 .connect h3 {
