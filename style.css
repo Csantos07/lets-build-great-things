@@ -176,12 +176,6 @@ main {
 
   /* margin: 30px 20px 30 20px; */
   /* padding: 0 20x; */
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-position: center center;
 }
 
 .free-code-camp {
