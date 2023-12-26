@@ -153,7 +153,7 @@ main {
 
 .resources .heading {
   /* align-self: flex-start; */
-  color: rgb(255, 122, 224);
+  color: rgb(255, 213, 122);
 }
 
 .resources .sub-heading {
@@ -162,7 +162,7 @@ main {
   /* border: 1px solid red; */
 }
 .resources .sub-heading span {
-  color: rgb(255, 122, 224);
+  color: rgb(255, 213, 122);
 }
 
 .resources a {
