@@ -142,19 +142,27 @@ main {
   flex-grow: 1;
   align-items: center;
   z-index: -2;
+  border: 1px solid red;
+}
+
+.resource-container {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
 }
 
 .resources .heading {
-  align-self: flex-start;
-  color: red;
+  /* align-self: flex-start; */
+  /* color: rgb(0, 34, 255); */
 }
 
 .resources .sub-heading {
   margin-bottom: 20px;
+  /* align-self: flex-start; */
   /* border: 1px solid red; */
 }
 .resources .sub-heading span {
-  color: red;
+  /* color: rgb(0, 34, 255); */
 }
 
 .resources a {
