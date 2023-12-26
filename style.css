@@ -153,7 +153,7 @@ main {
 
 .resources .heading {
   /* align-self: flex-start; */
-  color: rgb(122, 255, 182);
+  color: rgb(255, 122, 224);
 }
 
 .resources .sub-heading {
@@ -162,7 +162,7 @@ main {
   /* border: 1px solid red; */
 }
 .resources .sub-heading span {
-  color: rgb(122, 255, 182);
+  color: rgb(255, 122, 224);
 }
 
 .resources a {
@@ -186,14 +186,29 @@ main {
 
 .free-code-camp {
   background: url("free-code-camp.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
 }
 
 .codecademy {
   background: url("codecademy.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
 }
 
 .udemy {
   background: url("udemy.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
 }
 
 .hero.active {
