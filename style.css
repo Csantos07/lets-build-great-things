@@ -151,8 +151,10 @@ main {
 
 .resources .sub-heading {
   margin-bottom: 20px;
-  color: red;
   /* border: 1px solid red; */
+}
+.resources .sub-heading span {
+  color: red;
 }
 
 .resources a {
