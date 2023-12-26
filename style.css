@@ -146,15 +146,17 @@ main {
 
 .resources .heading {
   align-self: flex-start;
+  color: red;
 }
 
 .resources .sub-heading {
   margin-bottom: 20px;
+  color: red;
   /* border: 1px solid red; */
 }
 
-a {
-  display: inline-block;
+.resources a {
+  /* display: inline-block; */
   margin: 20px;
 }
 .a-resource {
