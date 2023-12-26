@@ -134,6 +134,50 @@ main {
   display: none;
 }
 
+.resources {
+  opacity: 0;
+  visibility: none;
+  display: none;
+  justify-content: start;
+  flex-grow: 1;
+  align-items: center;
+  z-index: -2;
+}
+
+.resources .heading {
+  align-self: flex-start;
+}
+
+.resources .sub-heading {
+  margin-bottom: 50px;
+  /* border: 1px solid red; */
+}
+
+.a-resource {
+  background-color: #fbfbfb;
+  height: 20vh;
+  width: 80vw;
+  /* margin: 30px 20px 30 20px; */
+  /* padding: 0 20x; */
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.free-code-camp {
+  background: url(free-code-camp.png) no-repeat center center fixed;
+}
+
+.codecademy {
+  background: url(codecademy.png) no-repeat center center fixed;
+}
+
+.udemy {
+  background: url(udemy.png) no-repeat center center fixed;
+}
+
 .hero.active {
   flex: 1;
   justify-content: space-around;
@@ -408,7 +452,8 @@ form button {
 
 .hero.active,
 .about.active,
-.connect.active {
+.connect.active,
+.resources.active {
   display: flex;
   visibility: visible;
   flex-direction: column;
