@@ -149,10 +149,14 @@ main {
 }
 
 .resources .sub-heading {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   /* border: 1px solid red; */
 }
 
+a {
+  display: inline-block;
+  margin: 20px;
+}
 .a-resource {
   background-color: #fbfbfb;
   height: 20vh;
