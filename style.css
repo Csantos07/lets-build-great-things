@@ -159,7 +159,7 @@ a {
 }
 .a-resource {
   background-color: #fbfbfb;
-  height: 50vh;
+  height: 20vh;
   width: 80vw;
   /* margin: 30px 20px 30 20px; */
   /* padding: 0 20x; */
@@ -171,15 +171,15 @@ a {
 }
 
 .free-code-camp {
-  background: url(free-code-camp.png) no-repeat center center fixed;
+  background: url("free-code-camp.png") no-repeat center center fixed;
 }
 
 .codecademy {
-  background: url(codecademy.png) no-repeat center center fixed;
+  background: url("codecademy.png") no-repeat center center fixed;
 }
 
 .udemy {
-  background: url(udemy.png) no-repeat center center fixed;
+  background: url("udemy.png") no-repeat center center fixed;
 }
 
 .hero.active {
