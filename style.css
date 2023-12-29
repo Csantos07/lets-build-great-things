@@ -346,6 +346,9 @@ form button {
   /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
+  opacity: 0;
+  visibility: none;
+  display: none;
 }
 
 .resources .heading {
@@ -378,7 +381,8 @@ form button {
 
 .hero.active,
 .about.active,
-.connect.active {
+.connect.active,
+.resources.active {
   display: flex;
   visibility: visible;
   flex-direction: column;
