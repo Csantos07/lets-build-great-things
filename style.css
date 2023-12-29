@@ -340,9 +340,49 @@ form button {
   padding-left: 5px;
 }
 
+.resources {
+  flex: 1;
+  z-index: -2;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  visibility: none;
+  display: none;
+}
+
+.resources .heading {
+  margin-bottom: 20px;
+}
+
+.resources .resources-content {
+  flex-grow: 1;
+}
+
+.resources article {
+  height: 20vh;
+  margin: 30px;
+}
+
+.free-code-camp {
+  background: url("free-code-camp.png") no-repeat center center;
+  background-size: cover;
+}
+
+.codecademy {
+  background: url("codecademy.png") no-repeat center center;
+  background-size: cover;
+}
+
+.udemy {
+  background: url("udemy.png") no-repeat center center;
+  background-size: cover;
+}
+
 .hero.active,
 .about.active,
-.connect.active {
+.connect.active,
+.resources.active {
   display: flex;
   visibility: visible;
   flex-direction: column;
