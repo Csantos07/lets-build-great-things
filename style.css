@@ -394,7 +394,8 @@ form button {
 }
 
 footer {
-  height: 7vh;
+  min-height: 5vh;
+  max-height: 7vh;
   background-color: #000000;
   color: #fff;
   /* padding: 10px; */
