@@ -397,7 +397,7 @@ footer {
   min-height: 5vh;
   max-height: 7vh;
   background-color: #000000;
-  color: #fff;
+  /* color: #fff; */
   /* padding: 10px; */
   margin-top: auto;
   /* padding-bottom: 25px; */
