@@ -405,6 +405,7 @@ footer {
   align-items: center;
   padding: 20px 0;
   flex-direction: row-reverse;
+  border: none;
 }
 
 .socials {
